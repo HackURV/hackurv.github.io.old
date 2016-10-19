@@ -1665,7 +1665,7 @@
 		height: 100%;
 		z-index: -10;
 		background-color: black;
-		opacity: 0.2;
+		opacity: 0.3;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -3850,6 +3850,13 @@ a.social-link {
 
 .features > li > p {
     padding-bottom: 2rem;
+}
+
+header#header {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
 }
 
 	#wrapper {
