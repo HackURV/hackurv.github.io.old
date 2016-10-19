@@ -3121,7 +3121,7 @@
 			margin: 0 0 0.25em 0;
 		}
 
-		#header p {
+		#header p, p.copyright {
 			font-size: 1.25em;
 			letter-spacing: -0.025em;
 		}
@@ -3804,8 +3804,26 @@ h3 {
 	font-weight: 400;
 }
 
-header p {
+header p, p.copyright {
 	font-weight: 400;
+}
+
+section#section-copyright {
+    background-color: transparent;
+}
+
+section.copyright {
+	color: white;
+}
+
+p.copyright {
+	padding-top: 1rem;
+	margin-bottom: -1rem;
+	color: rgba(255, 255, 255, 0.65);
+}
+
+a.social-link {
+    border-bottom: none;
 }
 
 .features > li > p {
