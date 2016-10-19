@@ -3852,6 +3852,11 @@ a.social-link {
     padding-bottom: 2rem;
 }
 
+.page-logo {
+	max-height: 200px;
+	max-width: 400px;
+}
+
 header#header {
     left: 50%;
     top: 50%;
