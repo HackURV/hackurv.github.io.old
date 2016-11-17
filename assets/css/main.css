@@ -3289,7 +3289,6 @@
 		border-top-right-radius: 0.25em;
 		cursor: default;
 		text-align: center;
-		margin-top: -75px !important;
 	}
 
 		#nav input, #nav select, #nav textarea {
