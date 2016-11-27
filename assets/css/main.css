@@ -2796,6 +2796,8 @@
 
 		table td {
 			padding: 0.75em 0.75em;
+			border: solid 1px;
+			border-color: rgb(221, 221, 221);
 		}
 
 		table th {
@@ -3612,6 +3614,7 @@
 
 		#main table th {
 			color: #636363;
+			text-align: center;
 		}
 
 		#main table thead {
