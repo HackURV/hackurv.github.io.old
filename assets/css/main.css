@@ -3869,6 +3869,10 @@ a.social-link {
     margin-top: -3rem;
 }
 
+#nav .sponsors a:hover {
+	background-color: transparent;
+}
+
 header#header {
     left: 50%;
     top: 50%;
